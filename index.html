@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Work 14/1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <!-- Task1 -->
+    <!-- <div class="container">
+        <form name="f1">
+            <h2>Task move</h2>
+            <div class="task__move">
+                <div><input type="text" name="get" class="get"></div>
+                <div><input type="button" name="button" class="button" value="move"></div>
+                <div><input type="text" name="send" class="send" ></div>
+               
+
+            </div>
+        </form>
+        <br>
+        <form name="f2">
+            <h2>Task placeholder</h2>
+            <div class="task__placeholder">
+                <input type="text" name="text" class="placeholder" value="">
+            </div>
+        </form>
+    </div> -->
+
+    <!-- Task2 -->
+
+    <div class="wrapper">
+        <div class="form">
+            <form action="./index2.html" id="form" class="form__body" name="f1">
+                <h1 class="form__title">Create your account</h1>
+                <div class="form__item">
+                    <label for="formName" class="form__label">Name*:</label>
+                    <input id="formName" type="text" name="name" class="form__input req" placeholder="type here..."></input>
+                </div>
+                <div class="form__item">
+                    <label for="lastName" class="form__label">Second Name*:</label>
+                    <input id="lastName" type="text" name="lastName" class="form__input req"></input>
+                </div>
+                <div class="form__item">
+                    <label for="formEmail" class="form__label">E-mail*:</label>
+                    <input id="formEmail" type="text" name="email" class="form__input req email"></input>
+                </div>
+                <div class="form__item">
+                    <div class="form__label">Man or women</div>
+                    <div class="options">
+                        <div class="option__item">
+                            <input id="formRightHanded" checked type="radio" value="man" name="sex"
+                                class="options__input">
+                            <label for="formRightHanded" class="options__label"><span>Man</span></label>
+                        </div>
+                        <div class="option__item">
+                            <input id="formLeftHanded" type="radio" value="woman" name="sex" class="options__input">
+                            <label for="formLeftHanded" class="options__label"><span>Woman</span></label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form__item">
+                    <div class="form__label">Position</div>
+                    <select name="position" class="select">
+                        <option value="Frontend">Frontend</option>
+                        <option value="Backend">Backend</option>
+                        <option value="QA/QC">QA/QC</option>
+                    </select>
+                </div>
+
+                <div class="form__item">
+                    <div class="checkbox">
+                        <input id="formAgreement" checked type="checkbox" name="agreement" class="checkbox__input req">
+                        <label for="formAgreement" class="checkbox__label"><span>Я даю згоду на опрацювання даних згідно
+                                з <a href="">Умовами</a>*</span></label>
+                    </div>
+                </div>
+                <button type="submit" class="form__button">Sign Up</button>
+
+
+
+            </form>
+        </div>
+    </div>
+    <div class="profile-container">
+        <header class="header">
+            <div class="wrapper__icon">
+                <div class="icon icon-man">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class=" icon icon-woman">
+                    <i class="fas fa-female"></i>
+                </div>
+            </div>
+        </header>
+      
+        <div class="block">
+            <h1 class="block__name"></h1>
+            <h3 class="block__email"></h3>
+            <h3 class="block__position"></h3>
+        </div>
+        <hr>
+        <button class="btn">Sign Out</button>
+        <footer class="networks">
+            <div class="facebook"><i class="fab fa-facebook-f"></i></div>
+            <div class="git"><i class="fab fa-github"></i></div>
+            <div class="in"><i class="fab fa-linkedin-in"></i></div>
+
+        </footer>
+    </div>
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
