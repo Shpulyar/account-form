@@ -1,36 +1,17 @@
 'use strict'
-                //  Task1
-// let f1 = document.forms.f1
-// let btn = document.querySelector('.button');
-// let send = document.querySelector('.send');
-// let get = document.querySelector('.get');
-// let count = 0;
-// btn.addEventListener('click', () => {
-//     if (get.value === '') {
-       
-//     }
-//     else {
-//         send.value = get.value;
-//         get.value = '';
-//     }
-// })
-
-
-                //   Task2
-
-
+               
 let user = {};
 let f1 = document.forms.f1;
-// console.log(f1);
+
 let blockName = document.querySelector('.block__name');
 let blockEmail = document.querySelector('.block__email');
 let blockPosition = document.querySelector('.block__position');
-// console.log(blockName);
 let profil = document.querySelector('.profile-container');
 let checkbox = document.querySelector('#formAgreement');
 let checkboxLabel = document.querySelector('.checkbox__label');
 let iconMan = document.querySelector('.icon-man');
 let iconWoman = document.querySelector('.icon-woman');
+
 f1.addEventListener('submit', function (event) {
     event.preventDefault();
     user.name = f1.elements['name'].value;
