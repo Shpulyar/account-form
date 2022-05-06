@@ -40,7 +40,6 @@ body {
     font-family: Arial, "Helvetica Neue", Helvetica, san-serif;
 }
 
-/* ---------------------------------------------------- */
 .form {
     max-width: 550px;
     margin: 0 auto;
@@ -61,7 +60,6 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    /* background: rgba(51,51,51,0.9) url('../images/b6e0b072897469.5bf6e79950d23.gif') center / 50px no-repeat; */
     opacity: 0;
     visibility: hidden;
     transition: all 0.5s ease 0s;
@@ -168,8 +166,6 @@ textarea.form__input {
     padding: 0 20px;
 }
 
-/* .file {} */
-
 .file__item {
     position: relative;
 }
@@ -204,8 +200,6 @@ textarea.form__input {
 .file__preview img {
     min-width: 100%;
 }
-
-/* .checkbox {} */
 
 .checkbox.error .checkbox__label::before{
     box-shadow: 0 0 15px red;
@@ -282,10 +276,6 @@ textarea.form__input {
     box-shadow: 0 2px 0 #161b13;
 }
 
-
-/* Profile */
-
-
 .profile-container {
     width: 400px;
     height: 500px;
@@ -321,7 +311,6 @@ textarea.form__input {
     border-radius: 50%;
     position: relative;
 }
-
 
 .fa-user {
     font-size: 80px;
